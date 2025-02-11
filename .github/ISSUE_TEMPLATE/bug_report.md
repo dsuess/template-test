@@ -1,6 +1,6 @@
 ---
 name: Bug report template
-about: Report bug
+about: Report a bug
 title: ''
 labels: 'bug'
 assignees: ''
@@ -8,18 +8,18 @@ assignees: ''
 ---
 
 
-## Describe the bug
+### Issue description
 
 A clear and concise description of what the bug is.
 
-## Context
+### Context
 
 - What project is this for?
 - What model are you trying to train?
 - What features do you want to use?
 
 
-## To Reproduce
+### Steps to reproduce the issue
 
 - git commit sha: `?`
 - environment: pip, poetry, custom?
@@ -29,10 +29,15 @@ A clear and concise description of what the bug is.
 python batch_files/train_sbatch.py ... --experiment_config ...thu
 ```
 
-## Expected behavior
+### What's the expected result?
 
 
-## Additional context
+### What's the actual result?
+
+Please include full traceback in case of an exception.
+
+
+### Additional context
 
 Add any other context about the problem here.
 
